@@ -35,7 +35,7 @@ or
 Instruction to get the API key can be found at
 https://developers.google.com/maps/documentation/geocoding/get-api-key
 ```
-Find the word "api_key" in the code update it with the generated API key
+Find the word "api_key" in the geocode.py file, update it with the generated API key
 ```
 ## Run
 
