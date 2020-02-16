@@ -1,6 +1,6 @@
 # CLI interface to consume Geocoding API
 
-This repository contains the source code to read the address from Excel sheet, consume Geocoding API and write the result to Excel sheet
+This repository contains the source code to read the address from Excel sheet, consume Geocoding API and write the latitude and longitude and formatted address fields to Excel sheet
 
 ## Requirements
 
