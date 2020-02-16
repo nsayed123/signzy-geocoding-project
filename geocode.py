@@ -59,11 +59,11 @@ def read_xlsx(file_path):
 #Make an api call to Goole Geocoding API service
 def make_api_request(address):
     URL = "https://maps.googleapis.com/maps/api/geocode/json"
-    key = "AIzaSyDIP5bqfukMpXJIok6JG_THkCPrZ3Z92Co"
+    api_key = ""
     result_dict = {}
     result_list = []
     for i in address:
-        PARAMS = {'address':i, "key":key}
+        PARAMS = {'address':i, "key":api_key}
         print(PARAMS)
         r = requests.get(url = URL, params = PARAMS)
         #print(r.url)
