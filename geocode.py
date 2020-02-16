@@ -64,7 +64,7 @@ def make_api_request(address):
     result_list = []
     for i in address:
         PARAMS = {'address':i, "key":api_key}
-        print(PARAMS)
+        #print(PARAMS)
         r = requests.get(url = URL, params = PARAMS)
         #print(r.url)
         data = r.json()
@@ -104,11 +104,11 @@ def write_to_excel(address, dict_result, max_row):
     sheet.cell(row=1, column=4).value = "Formatted Address"
     key = [i for i in dict_result.keys()]
     values = [i for i in dict_result.values()]
-    print(key)
-    print(values)
+    #print(key)
+    #print(values)
     for i in range(2, max_row+1):
         j = i - 2
-        print(j)
+        #print(j)
         sheet.cell(row=i, column=1).value = key[j]
         # writing values to cells
         sheet.cell(row=i, column=2). value = values[j]["latitude"]
