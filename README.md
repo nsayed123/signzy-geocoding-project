@@ -5,19 +5,19 @@ This repository contains the source code to read the address from Excel sheet, c
 ## Requirements
 
 To install and run these example you need:
-Python 3.3+
-git (only to clone this repository)
-Google Geocoding API key
-Excel sheet with an address field (One or more rows allowed)
-Following packages required
-openpyxl
-requests
+- Python 3.3+
+- git (only to clone this repository)
+- Google Geocoding API key
+- Excel sheet with an address field (One or more rows allowed)
+- Following packages required
+    - openpyxl
+    - requests
 
 ## Installation
 
 The commands below set everything up to run the examples:
-git clone https://github.com/nsayed123/signzy-geocoding-project.git
-cd signzy-geocoding-project
+$ git clone https://github.com/nsayed123/signzy-geocoding-project.git
+$ cd signzy-geocoding-project
 
 Install the following packages
 pip3 install openpyxl
