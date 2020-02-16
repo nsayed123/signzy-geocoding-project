@@ -17,8 +17,8 @@ To install and run these example you need:
 
 The commands below set everything up to run the examples:
 ```
-- $ git clone https://github.com/nsayed123/signzy-geocoding-project.git
-- $ cd signzy-geocoding-project
+$ git clone https://github.com/nsayed123/signzy-geocoding-project.git
+$ cd signzy-geocoding-project
 ```
 
 Install the following packages
@@ -32,20 +32,20 @@ or
 
 ## Get Google Geocoding API key
 
-Instruction to get the API key
+Instruction to get the API key can be found at
 https://developers.google.com/maps/documentation/geocoding/get-api-key
 ```
-At line 62 / find the word "api_key" in the code update the generated API key
+Find the word "api_key" in the code update it with the generated API key
 ```
 ## Run
 
-Make sure your current directory signzy-geocoding-project
+Make sure you are in the right directory "signzy-geocoding-project"
 ```
 python3 geocode.py <Excel sheet>
 
 Ex: python3 geocode.py region.xlsx
 ```
-Note: the first row will have the field name as "Region"
+Note: the first row in the Excel sheet will have the field name as "Region". Example file is provided "region.xlsx"
 
 
 
