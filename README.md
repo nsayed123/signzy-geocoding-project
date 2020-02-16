@@ -1,8 +1,8 @@
-CLI interface to consume Geocoding API
+# CLI interface to consume Geocoding API
 
 This repository contains the source code to read the address from Excel sheet, consume Geocoding API and write the result to Excel sheet
 
-Requirements
+## Requirements
 
 To install and run these example you need:
 Python 3.3+
@@ -13,7 +13,7 @@ Following packages required
 openpyxl
 requests
 
-Installation
+## Installation
 
 The commands below set everything up to run the examples:
 git clone https://github.com/nsayed123/signzy-geocoding-project.git
@@ -27,14 +27,14 @@ or
 
 pip3 install -r requirements.txt
 
-Get Google Geocoding API key
+## Get Google Geocoding API key
 
 Instruction to get the API key
 https://developers.google.com/maps/documentation/geocoding/get-api-key
 
 At line 62 / find the word "api_key" in the code update the generated API key
 
-Run
+## Run
 
 Make sure your current directory signzy-geocoding-project
 python3 geocode.py <Excel sheet>
@@ -43,7 +43,6 @@ Ex: python3 geocode.py region.xlsx
 
 Note: the first row will have the field name as "Region"
 
-OUTPUT
 
 
 
